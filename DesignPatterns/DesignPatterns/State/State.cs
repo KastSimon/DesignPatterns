@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatterns.State
 {
-    abstract class State
+    public abstract class State
     {
 
         protected Context context;

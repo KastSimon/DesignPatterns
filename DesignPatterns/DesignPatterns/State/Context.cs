@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatterns.State
 {
-    class Context
+    public class Context
     {
         // A reference to the current state of the Context.
         private State state = null;

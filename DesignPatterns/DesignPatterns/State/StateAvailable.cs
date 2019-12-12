@@ -4,17 +4,18 @@ using System.Text;
 
 namespace DesignPatterns.State
 {
-    class StateAvailable :State
+    public class StateAvailable :State
     {
         public override void Available()
         {
-            Console.Write("ConcreteStateB handles request1.");
+            //Placeholder User Code..
+            Console.Write("StAvailable handles available.");
         }
 
         public override void Sold()
         {
-            Console.WriteLine("ConcreteStateB handles request2.");
-            Console.WriteLine("ConcreteStateB wants to change the state of the context.");
+            //Placeholder User Code..
+            Console.WriteLine("StAvailable wants to change the state to sold.");
             this.context.TransitionTo(new StateSold());
         }
     }
