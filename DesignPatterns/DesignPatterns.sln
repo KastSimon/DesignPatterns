@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{DC52F0B6-A272-4304-A7D7-3E13D9D8E12E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePatternDemo", "StatePattern\StatePatternDemo.csproj", "{49A558E4-CCAB-4CD4-87CA-B53D212C80C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePatternDemo", "StatePattern\StatePatternDemo.csproj", "{49A558E4-CCAB-4CD4-87CA-B53D212C80C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{38FAA43A-F5E6-4E0D-A8EE-922DD69ACC32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{49A558E4-CCAB-4CD4-87CA-B53D212C80C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49A558E4-CCAB-4CD4-87CA-B53D212C80C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49A558E4-CCAB-4CD4-87CA-B53D212C80C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FAA43A-F5E6-4E0D-A8EE-922DD69ACC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FAA43A-F5E6-4E0D-A8EE-922DD69ACC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FAA43A-F5E6-4E0D-A8EE-922DD69ACC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FAA43A-F5E6-4E0D-A8EE-922DD69ACC32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
