@@ -1,4 +1,4 @@
-# Template Method Pattern
+# Template method pattern
 
 # Problem
 Die Struktur eines Algorithmus ist die gleiche in verschiedenen Unterklassen, aber die Verarbeitungsdetails variieren von Unterklasse zu Unterklasse.
