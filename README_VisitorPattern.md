@@ -11,7 +11,7 @@ Der Visitor ermöglicht es, eine neue Operation zu definieren, ohne die Klasse d
 bearbeiteten Elemente zu ändern
 
 ## UML
-![](VisitorPattern_Classdiagramm.png)
+![](https://github.com/KastSimon/DesignPatterns/blob/master/UML%20Diagramme/Visitor%20Pattern/VisitorPattern_Classdiagramm.png)
 
 
 ## Vorteile

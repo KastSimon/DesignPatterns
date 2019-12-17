@@ -7,8 +7,7 @@ Die Struktur eines Algorithmus ist die gleiche in verschiedenen Unterklassen, ab
 Definiere die Struktur des Algorithmus (Skelett) in der Basisklasse. Diese Template Methode ruft andere Methoden für die variierenden Details auf. Diese anderen Methoden (Hook methods) werden in den Unterklassen entsprechend überschrieben. 
 
 ## UML
-![](TemplatePattern.png)
-![TemplatePattern] (https://github.com/KastSimon/DesignPatterns/blob/master/UML%20Diagramme/TemplatePattern.png?raw=true "UML")
+![](https://github.com/KastSimon/DesignPatterns/blob/master/UML%20Diagramme/Template%20Pattern/TemplatePattern.png)
 
 ## Vorteile
 

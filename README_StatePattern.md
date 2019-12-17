@@ -2,7 +2,7 @@
 
 ## Problem
 Für ein Objekt sind verschiedene Zustände, die möglichen Übergänge zwischen diesen Zuständen und das davon abhängige Verhalten zu definieren. Dies ist hier in Form eines endlichen Automaten dargestellt. Dabei zeigt der schwarze Kreis auf den Startzustand und der schwarze Kreis mit der weißen Umrandung auf den Endzustand. Die gerichteten Kanten (Pfeile) zwischen den Zuständen Closed, Open und Deleted definieren den Zustandswechsel. 
-![](StatePattern_Statechart.png)
+![](https://github.com/KastSimon/DesignPatterns/blob/master/UML%20Diagramme/State%20Pattern/StatePattern_Statechart.png)
 
 ## Lösung
 Das zustandsabhängige Verhalten des Objekts wird in separate Klassen ausgelagert, wobei für jeden möglichen Zustand eine eigene Klasse eingeführt wird, die das Verhalten des Objekts in diesem Zustand definiert. Damit der Kontext die separaten Zustandsklassen einheitlich behandeln kann, wird eine gemeinsame Abstrahierung dieser Klassen definiert.
