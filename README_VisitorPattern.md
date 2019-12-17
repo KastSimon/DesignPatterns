@@ -11,20 +11,20 @@ Der Visitor ermöglicht es, eine neue Operation zu definieren, ohne die Klasse d
 bearbeiteten Elemente zu ändern
 
 ## UML
-
+![](VisitorPattern_Classdiagramm.png)
 
 
 ## Vorteile
--Neue Operationen lassen sich leicht durch die Definition neuer Besucher hinzufügen.
--Verwandte Operationen werden im Besucher zentral verwaltet und von besucherfremden Operationen getrennt.
--Besucher können mit Objekten aus voneinander unabhängigen Klassenhierarchien arbeiten.
+* Neue Operationen lassen sich leicht durch die Definition neuer Besucher hinzufügen.
+* Verwandte Operationen werden im Besucher zentral verwaltet und von besucherfremden Operationen getrennt.
+* Besucher können mit Objekten aus voneinander unabhängigen Klassenhierarchien arbeiten.
 
 ## Nachteile
-Die gute Erweiterungsmöglichkeit der Klassen von Besuchern muss mit einer schlechten Erweiterbarkeit 
+* Die gute Erweiterungsmöglichkeit der Klassen von Besuchern muss mit einer schlechten Erweiterbarkeit 
 der Klassen der konkreten Elemente erkauft werden. Müssen neue konkrete Elemente hinzugefügt werden, 
 so führt dies dazu, dass viele Besucher-besuche-Methoden implementiert werden müssen.
 
-## Beispiel
+
 
 
 
