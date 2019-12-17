@@ -10,7 +10,7 @@ Das zustandsabhängige Verhalten des Objekts wird in separate Klassen ausgelager
 Bei einem Zustandsübergang tauscht der Kontext das von ihm verwendete Zustandsobjekt aus. 
 
 ## UML
-![](UML Diagramme\State Pattern\StatePattern_Classdiagramm.png)
+![](https://github.com/KastSimon/DesignPatterns/blob/master/UML%20Diagramme/State%20Pattern/StatePattern_Classdiagramm.png)
 
 ## Vorteile
 * Ein Vorteil des Systems ist, dass komplexe und schwer zu lesende Bedingungsanweisungen vermieden werden können. Außerdem können neue Zustände und neues Verhalten auf einfache Weise hinzugefügt werden. Die Wartbarkeit wird erhöht und Zustandsobjekte können wiederverwendet werden.
